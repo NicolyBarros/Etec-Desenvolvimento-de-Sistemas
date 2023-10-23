@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+
+<head>
+<meta charset='UTF-8'>
+<title>Curso HTML</title>
+</head>
+
+<body>
+
+<center><h1>FORMULÁRIOS</h1></center>
+<hr>
+
+<p> * Primeiro input</p>
+<input type='text' name='nome' size=8 value='nome'>
+<hr>
+
+<p> * Elemento TYPE</p>
+
+<p>type='password'</p>
+<input type='password' name='senha' value='senha' maxlength=6>
+
+<br><br>
+
+<p>type='radio'</p>
+<input type='radio' name='você gostou dessa home page?' value='sim' size=8>sim<p>
+<input type='radio' name='você gostou dessa home page?' value='nao' size=8>não<p>
+
+<br>
+
+<p>type='checkbox'</p>
+<input type='checkbox' name='netscape' value='net'>Netscape<p>
+<input type='checkbox' name='explorer' value='exp'>Internet Explorer<p>
+<input type='checkbox' name='mosaic' value='mos'>Mosaic<p>
+<input type='checkbox' name='hot java' value='hot'>Hot Java<p>
+
+<br>
+
+<p>type='submit'</p>
+<input type='submit' value='enviar'>
+
+<br><br>
+
+<p>type='reset'</p>
+<input type='reset' value='clear'>
+<hr>
+
+<p> * Textarea</p>
+<textarea name='home' cols=20 rows=3>texto</textarea>
+<hr>
+
+<p> * Select</p>
+<select>
+<option selected value='valor de retorno'>Valor visualizado
+<option value='valor de retorno'>Valor visualizado 2
+</select>
+
+<select multiple name='Estados'>
+<option selected value='SP'>São Paulo
+<option value='RJ'>Rio de Janeiro 
+<option value='MG'>Minas Gerais
+<option value='ES'>Espírito Santo
+</select>
+<hr>
+
+<p> * Formulário completo
+
+<title>Órgãos Colegiados</title>
+
+<table border=1 bgcolor='blue' width='100%'>
+<th><font color='white'>Cadastro de Conselho</font></th>
+</table>
+
+<form name='form_conselho' method='post'>
+
+<h4>Programa</h4>
+
+<table width='100%'>
+<tr>
+<td width='15%'><font size='3' face='arial'>Unidade</font></td>
+<td><input type='text' name='codUnidade' size='5'></td>
+<td><input type='text' name='unidade' size='80'></td>
+</tr>
+
+<tr>
+<td width='15%'><font size='3' face='arial'>Programa</font></td>
+<td><input type='text' name='codPrograma' size='5'></td>
+<td><input type='text' name='programa' size='80'></td>
+</tr>
+</table>
+
+<h4>Conselho de Programa de Pós-Graduação</h4>
+
+<table width='100%'>
+<tr>
+<td width='15%'><font size='3' face='arial'>Código</font></td>
+<td><input type='text' name='codigo' size='5'></td>
+</tr>
+
+<tr>
+<td width='15%'><font size='3' face='arial'>Nome</font></td>
+<td><input type='text' name='nome' size='100'></td>
+</tr>
+
+<tr>
+<td width='15%'><font size='3' face='arial'>Tipo</font></td>
+<td>
+<select name='tipo'>
+<option>
+<option value='1'>COMISSOES TRANSITORIAS DE ESTUDOS
+<option value='2'>CONSELHO DE DEPARTAMENTO
+<option value='3'>COMISSOES PERMANENTES DE UNIDADE ADMINISTRATIVA
+</select>
+</td>
+</tr>
+
+<tr>
+<td width='15%'><font size='3' face='arial'>Fundamento</font></td>
+<td>
+<textarea name='fundamento' cols=50 rows=3></textarea>
+</td>
+</tr>
+
+<tr>
+<td align='center' colspan='2'>
+<input type='submit' value='Salvar'>
+</td>
+</tr>
+
+</table>
+</form>
+
+</body>
+</html>

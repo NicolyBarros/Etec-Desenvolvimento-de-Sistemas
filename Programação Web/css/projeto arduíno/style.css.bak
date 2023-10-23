@@ -1,0 +1,32 @@
+body{text-align: center; background-size :cover}
+
+	h1{
+	font-family: tahoma; 
+	color: white; 
+	font-size: 100px;
+	margin-bottom: 80px;
+	text-shadow: 2px 2px 2px #3186a0;
+	}
+
+	div{
+	margin: 10%; 
+	}
+	
+	a{
+		background-color: black;
+		color: white;
+		padding: 2%;
+		border-radius: 7px;
+		text-decoration: none;
+		margin: 2%;
+		font-family: arial;
+		font-size: 30px;
+		font-weight: bold;
+		border-color:white;
+		border: solid 2px;
+	}
+	
+	img{
+		width:90px;
+		height:90px;
+	}

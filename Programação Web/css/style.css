@@ -1,0 +1,13 @@
+body{text-align: center; background-color: gray}
+
+h1{font-size: 36pt; color:blue; font-family: arial; text-shadow: 1px 1px 3px red ;}
+
+a{
+	font-size: 20pt; 
+	color:white; 
+	font-family: tahoma; 
+	text-decoration: none; 
+	background-color:black; 
+	border-radius:8px;
+	padding: 6px;
+	}

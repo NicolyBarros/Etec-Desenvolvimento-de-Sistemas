@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+<meta charset= 'utf-8'>
+<title> Curso de HTML</title>
+</head>
+
+<body>
+<font size='4'> Colegiado UNESP :::</font>
+<br>
+<font size='4'> Manutenção do Órgão Colegiado </font>
+
+<table border='1' align='center' width='90%'>
+	<tr>
+		<td> Unidade</td>
+		<td> FACULDADE DE ENGENHARIA DE ILHA SOLTEIRA</td>
+	</tr>
+
+	<tr>
+		<td> Tipo Colegiado </td>
+		<td> CONGREGAÇÃO </td>
+	</tr>
+</table>
+
+<br><br><br>
+
+<table border='1' align='center' width='100%'>
+	<tr>
+		<td colspan='1'> Órgão Colegiado</td>
+	</tr>
+	
+	<tr>
+	<td>
+	<form name="form_conselho" method="post">
+	<table align="center" width="100%" >
+	
+	<tr>
+		<th  align="right"><font> Nome </font></th>
+		<td> <input type="text" name="programa" size="70"> </td>
+	</tr>
+	
+	<tr>
+	<th align="right"> Sigla </th>
+		<td> <input type="text" name="programa" size="10"></td>
+		<th align="right"> Status</th> 
+		<td> <select name="tipo"> 
+					<option>
+					<option value="1"> ATIVADO
+					<option value="2"> DESATIVADO
+				</select>
+		</td>
+	</tr>
+	
+	
+	<tr>
+		<th  align="right"> Data Ativação </th>
+		<td> <input type="text" name="Data ativação" size="10"> </td>
+		<th  align="right"> Data Desativação </th>
+		<td> <input type="text" name="Data Desativação" size="10"> </td>
+	</tr>
+	
+	<br>
+	<tr>
+		<th  align="right"> Órgão de Origem</th>
+		<td> <input type="text" name="programa" size="50"> <input type="submit" value="Buscar" ></td>
+	</tr>
+	
+	<tr>
+		<th  align="right">Órgão Superior </th>
+		<td> <input type="text" name="programa" size="50"> <input type="submit" value="Buscar" ></td>
+	</tr>
+	
+	<tr>
+		<th  align="right"> Documentação</th>
+		<td> <textarea name="documentacao" cols=80 rows=5></textarea> </td>
+		
+	</tr>
+	
+	<td>
+	     <th>
+		<input type="submit" value="Salvar" > 
+		</th>
+		<th>
+		<input type="submit" value="Excluir" > 
+		</th>
+	</td>
+ </table>
+ 
+</form>
+
+</td>
+
+</tr>
+
+</table>
+
+<br>
+
+        <input  align='center' type="submit" value="Retomar" > 
+
+</body>
+</html>
